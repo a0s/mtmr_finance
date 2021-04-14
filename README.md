@@ -1,7 +1,7 @@
 mtmr_finance
 ============
 
-Shows summary balances in USD from different sources markets
+Shows summary balances (in USD) on [MTMR](https://github.com/Toxblh/MTMR) bar from different markets
 
 Sources
 -------
@@ -43,7 +43,7 @@ Sources
       "width": 130,
       "refreshInterval": 300,
       "source": {
-        "inline": "source ~/.zshrc && `which python3` $HOME/my/mtmr_finance/bittrex_balance.py"
+        "inline": "source ~/.zshrc && `which python3` $HOME/mtmr_finance/bittrex_balance.py"
       },
       "actions": [],
       "align": "right",
