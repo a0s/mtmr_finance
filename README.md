@@ -3,6 +3,8 @@ mtmr_finance
 
 Shows summary balances (in USD) on [MTMR](https://github.com/Toxblh/MTMR) bar from different markets
 
+![image](https://user-images.githubusercontent.com/418868/114740440-850c7f80-9d52-11eb-97ae-f58c1a96bcab.png)
+
 Sources
 -------
 
