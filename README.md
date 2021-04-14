@@ -6,7 +6,7 @@ Shows summary balances in USD from different sources markets
 Sources
 -------
 
-- Tinkoff Invest [OpenAPI](https://github.com/TinkoffCreditSystems/invest-openapi/)
+### Tinkoff Invest [OpenAPI](https://github.com/TinkoffCreditSystems/invest-openapi/)
 
   Input env:
   ```shell
@@ -28,7 +28,7 @@ Sources
   }
   ```
 
-- [Bittrex API](https://bittrex.github.io/api/v3)
+### [Bittrex API](https://bittrex.github.io/api/v3)
 
   Input env:
   ```shell
@@ -56,5 +56,5 @@ Installation
 
 ```shell
 brew install python@3.8
-git clone
+git clone https://github.com/a0s/mtmr_finance.git
 ```
