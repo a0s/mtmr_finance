@@ -19,7 +19,7 @@ hashrate = mining.rvn_hashrate()
 total += mining.rvn_balance()
 
 print(
-    "RVN | %.0f/s\n$%.2f"
+    "RVN %.0f/s\n$%.2f"
     % (
         hashrate,
         total * rvn_currency,

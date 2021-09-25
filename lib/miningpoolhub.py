@@ -53,3 +53,25 @@ class Miningpoolhub:
         raw = response.read().decode("utf-8")
         balance = json.loads(raw)["getuserbalance"]["data"]["confirmed"]
         return balance
+
+    def eth_hashrate(self):
+        url = (
+            "https://ethereum.miningpoolhub.com/index.php?page=api&api_key=%s&action=getuserhashrate"
+            % (self.api_key,)
+        )
+        request = urllib.request.Request(url, headers=self.headers())
+        response = urllib.request.urlopen(request)
+        raw = response.read().decode("utf-8")
+        hashrate = json.loads(raw)["getuserhashrate"]["data"]
+        return hashrate
+
+    def eth_balance(self):
+        url = (
+            "https://ethereum.miningpoolhub.com/index.php?page=api&api_key=%s&action=getuserbalance"
+            % (self.api_key,)
+        )
+        request = urllib.request.Request(url, headers=self.headers())
+        response = urllib.request.urlopen(request)
+        raw = response.read().decode("utf-8")
+        balance = json.loads(raw)["getuserbalance"]["data"]["confirmed"]
+        return balance
